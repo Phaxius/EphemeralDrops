@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ephemeraldrops",
+  "version": "${version}",
+
+  "name": "Ephemeral Drops",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Phaxius"
+  ],
+  "contact": {
+    "homepage": "https://https://github.com/Phaxius/EphemeralDrops/wiki",
+    "sources": "https://https://github.com/Phaxius/EphemeralDrops"
+  },
+
+  "license": "MIT",
+  "icon": "assets/ephemeraldrops/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.phaxcraft.ephemeraldrops.EphemeralDrops"
+    ]
+  },
+  "mixins": [
+    "ephemeraldrops.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
