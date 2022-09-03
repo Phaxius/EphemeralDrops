@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.phaxcraft.ephemeraldrops.mixins",
+  "package": "com.phaxcraft.ephemeraldrops.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
