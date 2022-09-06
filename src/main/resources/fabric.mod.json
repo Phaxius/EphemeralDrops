@@ -10,6 +10,7 @@
   ],
   "contact": {
     "homepage": "https://https://github.com/Phaxius/EphemeralDrops/wiki",
+    "issues": "https://github.com/Phaxius/EphemeralDrops/issues",
     "sources": "https://https://github.com/Phaxius/EphemeralDrops"
   },
 
@@ -33,6 +34,20 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/vymD6UnAU8"
+      },
+      "parent": {
+        "id": "phaxcraftcore",
+        "name": "Phaxcraft Core",
+        "description": "Library of commonly used components for Phaxcraft Mods",
+        "icon": "assets/ephemeraldrops/parent-icon.png",
+        "badges": [ "library" ]
+      }
+    }
   }
 }
